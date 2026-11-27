@@ -19,19 +19,19 @@ function showInterest(interest) {
     const message = document.getElementById("interest-message");
 
     if (interest === "Technology") {
-        message.textContent = "I'm interested in programming, computers and emerging technologies.";
+        message.textContent = "I'm interested in programming, innovation, computers and learning aboutemerging technologies.";
     }
 
     else if (interest === "Engineering") {
-        message.textContent = "I'm interested in robotics, electronics and how mechanical systems work.";
+        message.textContent = "I'm interested in robotics, electronics and learning how mechanical systems work.";
     }
 
     else if (interest === "Business & Economics") {
-        message.textContent = "I'm interested in entrepreneurship, markets and understanding economies.";
+        message.textContent = "I'm interested in entrepreneurship, learning about market systems and understanding economies.";
     }
 
     else if (interest === "Gaming") {
-        message.textContent = "I enjoy gaming, especially Minecraft.";
+        message.textContent = "I enjoy gaming, especially Minecraft and roblox.";
     }
 
 }
