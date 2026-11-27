@@ -1,0 +1,37 @@
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+menuToggle.addEventListener("click", function() {
+
+    const isOpen = navLinks.classList.toggle("active");
+
+    if (isOpen) {
+        menuToggle.setAttribute("aria-expanded", "true");
+    } else {
+        menuToggle.setAttribute("aria-expanded", "false");
+    }
+
+});
+
+function showInterest(interest) {
+
+    const message = document.getElementById("interest-message");
+
+    if (interest === "Technology") {
+        message.textContent = "I'm interested in programming, computers and emerging technologies.";
+    }
+
+    else if (interest === "Engineering") {
+        message.textContent = "I'm interested in robotics, electronics and how mechanical systems work.";
+    }
+
+    else if (interest === "Business & Economics") {
+        message.textContent = "I'm interested in entrepreneurship, markets and understanding economies.";
+    }
+
+    else if (interest === "Gaming") {
+        message.textContent = "I enjoy gaming, especially Minecraft.";
+    }
+
+}
